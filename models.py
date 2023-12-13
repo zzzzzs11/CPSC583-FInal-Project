@@ -1,4 +1,4 @@
-#https://github.com/Diego999/pyGAT/blob/master/train.py#L55
+#from https://github.com/Diego999/pyGAT/blob/master/train.py#L55
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -151,7 +151,7 @@ class GCN(torch.nn.Module):
 
         return x
 
-#https://github.com/chennnM/GCNII/blob/master/model.py#L46    
+#from https://github.com/chennnM/GCNII/blob/master/model.py#L46    
 from torch.nn.parameter import Parameter
 
 class GraphConvolution(nn.Module):
